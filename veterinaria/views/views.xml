@@ -13,14 +13,31 @@
       </field>
     </record>
      
-    <!-- Vista kanvan de veterinaria  -->
+    <!-- Vista kanban de veterinaria  -->
     <record model="ir.ui.view" id="view_kanban_veterinaria">
       <field name="name">view.kanban.veterinaria</field>
       <field name="model">veterinaria.animal</field>
       <field name="arch" type="xml">
         <kanban>
+          <field name="id"/>
           <field name="ref"/>
           <field name="name"/>
+          <templates>
+            <t t-name="kanban-box">
+              <div t-attf-class="oe_kanban_global_click">
+                <div class="oe_kanban_details">
+                  <ul>
+                    <li>
+                      <field name="name"/>
+                    </li>
+                    <li>
+                      <field name="ref"/>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </t>
+          </templates>
         </kanban>
       </field>
     </record>
