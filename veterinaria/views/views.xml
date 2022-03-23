@@ -4,7 +4,7 @@
 
     <record model="ir.ui.view" id="view_tree_veterinaria">
       <field name="name">view.tree.veterinaria</field>
-      <field name="model">veterinaria.animal</field>
+      <field name="model">veterinaria</field>
       <field name="arch" type="xml">
         <tree>
           <field name="ref"/>
@@ -16,7 +16,7 @@
     <!-- Vista kanban de veterinaria  -->
     <record model="ir.ui.view" id="view_kanban_veterinaria">
       <field name="name">view.kanban.veterinaria</field>
-      <field name="model">veterinaria.animal</field>
+      <field name="model">veterinaria</field>
       <field name="arch" type="xml">
         <kanban>
           <field name="id"/>
@@ -45,7 +45,7 @@
     <!-- Vista form de Veterinaria-->
     <record id="view_veterinaria_form" model="ir.ui.view">
       <field name="name">view.form.veterinaria</field>
-      <field name="model">veterinaria.animal</field>
+      <field name="model">veterinaria</field>
       <field name="arch" type="xml">
         <form>
           <sheet>
@@ -60,7 +60,7 @@
     <record id="action_view_veterinaria" model="ir.actions.act_window">
       <field name="name">Veterinaria</field>
       <!-- <field name="type">tr.actions.act_window</field> -->
-      <field name="res_model">veterinaria.animal</field>
+      <field name="res_model">veterinaria</field>
       <field name="view_mode">tree,kanban,form</field>
       <field name="help" type="html">
         <p class="o_view_nocontent_smiling_face">
