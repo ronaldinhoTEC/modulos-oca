@@ -20,7 +20,6 @@
         <form>
           <sheet>
             <group>
-              <h1>Hola mundo</h1>
               <field name="name" string="Nombre"/>
               <field name="ref" string="Referencia"/>
             </group>
@@ -28,9 +27,9 @@
         </form>
       </field>
     </record>
-    <record id="veterinaria_action" model="ir.actions.act_window">
+    <record id="action_view_veterinaria" model="ir.actions.act_window">
       <field name="name">Veterinaria_</field>
-      <field name="type">tr.actions.act_window</field>
+      <!-- <field name="type">tr.actions.act_window</field> -->
       <field name="res_model">veterinaria.animal</field>
       <field name="view_mode">tree.kanvan.form</field>
       <field name="help" type="html">
@@ -41,5 +40,5 @@
       </field>
     </record>
     
-    <menuitem name="menu_veterinaria" id="veterinaria.menu_root" action="veterinaria.veterinaria_action"/>
+    <menuitem name="menu_veterinaria" parent="" id="veterinaria.menu_root" action="veterinaria.action_view_veterinaria"/>
 </odoo>
