@@ -29,7 +29,7 @@
     </record>
     <record id="action_view_veterinaria" model="ir.actions.act_window">
       <field name="name">Veterinaria_</field>
-      <!-- <field name="type">tr.actions.act_window</field> -->
+      <field name="type">tr.actions.act_window</field>
       <field name="res_model">veterinaria.animal</field>
       <field name="view_mode">tree.kanvan.form</field>
       <field name="help" type="html">
