@@ -12,6 +12,18 @@
         </tree>
       </field>
     </record>
+     
+    <!-- Vista kanvan de veterinaria  -->
+    <record model="ir.ui.view" id="view_kanban_veterinaria">
+      <field name="name">view.kanban.veterinaria</field>
+      <field name="model">veterinaria.animal</field>
+      <field name="arch" type="xml">
+        <kanban>
+          <field name="ref"/>
+          <field name="name"/>
+        </kanban>
+      </field>
+    </record>
 
     <!-- Vista form de Veterinaria-->
     <record id="view_veterinaria_form" model="ir.ui.view">
@@ -32,7 +44,7 @@
       <field name="name">Veterinaria</field>
       <!-- <field name="type">tr.actions.act_window</field> -->
       <field name="res_model">veterinaria.animal</field>
-      <field name="view_mode">tree,form</field>
+      <field name="view_mode">tree,kanban,form</field>
       <field name="help" type="html">
         <p class="o_view_nocontent_smiling_face">
           Crea un nuevo animal en la veterinaria y haz click en el botón 
