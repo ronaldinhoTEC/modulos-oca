@@ -1,8 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <!-- Vista tree de Veterinaria-->
 
-    <record model="ir.ui.view" id="view_veterinaria_tree">
-      <field name="name">veterinaria.tree</field>
+    <record model="ir.ui.view" id="view_tree_veterinaria">
+      <field name="name">view.tree.veterinaria</field>
       <field name="model">veterinaria.animal</field>
       <field name="arch" type="xml">
         <tree>
@@ -13,8 +14,8 @@
     </record>
 
     <!-- Vista form de Veterinaria-->
-    <record id="view_animal_form" model="ir.ui.view">
-      <field name="name">animal.form</field>
+    <record id="view_veterinaria_form" model="ir.ui.view">
+      <field name="name">view.form.veterinaria</field>
       <field name="model">veterinaria.animal</field>
       <field name="arch" type="xml">
         <form>
@@ -31,13 +32,13 @@
       <field name="name">Veterinaria</field>
       <!-- <field name="type">tr.actions.act_window</field> -->
       <field name="res_model">veterinaria.animal</field>
-      <field name="view_mode">tree.form</field>
-      <!-- <field name="help" type="html">
+      <field name="view_mode">tree,form</field>
+      <field name="help" type="html">
         <p class="o_view_nocontent_smiling_face">
           Crea un nuevo animal en la veterinaria y haz click en el botón 
           <b>Nuevo</b>   
         </p>
-      </field> -->
+      </field>
     </record>
     
     <menuitem name="menu_veterinaria" parent="" id="veterinaria.menu_root" action="veterinaria.action_view_veterinaria"/>
