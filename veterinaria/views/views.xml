@@ -36,10 +36,12 @@
       <field name="help" type="html">
         <p class="o_view_nocontent_smiling_face">
           Crea un nuevo animal en la veterinaria y haz click en el botón 
-          <b>Nuevo</b>   
-        </p>
+          <b>Crear</b> para guardarlo.  Si quieres editar un animal, haz click en el botón 
+          <b>Editar</b> y luego haz click en el botón <b>Guardar</b>. 
+           
+        </p> 
       </field>
     </record>
     
-    <menuitem name="menu_veterinaria" parent="" id="veterinaria.menu_root" action="veterinaria.action_view_veterinaria"/>
+    <menuitem name="Veterinaria" parent="" id="veterinaria.menu_root" action="veterinaria.action_view_veterinaria"/>
 </odoo>
