@@ -28,10 +28,10 @@
                 <div class="oe_kanban_details">
                   <ul>
                     <li>
-                      <field name="name"/>
+                      Nombre: <field name="name"/>
                     </li>
                     <li>
-                      <field name="ref"/>
+                      Referencia: <field name="ref"/>
                     </li>
                   </ul>
                 </div>
