@@ -47,7 +47,7 @@
       <field name="name">view.form.veterinaria</field>
       <field name="model">veterinaria</field>
       <field name="arch" type="xml">
-        <form>
+        <form string="Veterinaria">
           <sheet>
             <group>
               <field name="name" string="Nombre"/>
