@@ -28,16 +28,16 @@
       </field>
     </record>
     <record id="action_view_veterinaria" model="ir.actions.act_window">
-      <field name="name">Veterinaria_</field>
+      <field name="name">Veterinaria</field>
       <!-- <field name="type">tr.actions.act_window</field> -->
       <field name="res_model">veterinaria.animal</field>
       <field name="view_mode">tree.form</field>
-      <field name="help" type="html">
+      <!-- <field name="help" type="html">
         <p class="o_view_nocontent_smiling_face">
           Crea un nuevo animal en la veterinaria y haz click en el botón 
           <b>Nuevo</b>   
         </p>
-      </field>
+      </field> -->
     </record>
     
     <menuitem name="menu_veterinaria" parent="" id="veterinaria.menu_root" action="veterinaria.action_view_veterinaria"/>
