@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-
+    <!-- Security de veterinaria-->
     <record id="model_access_veterinaria" model="ir.model.access">
         <field name="name">model.access.veterinaria</field>
         <field name="model_id" ref="veterinaria.model_veterinaria" />
@@ -10,6 +10,8 @@
         <field name="perm_create" eval="1" />
         <field name="perm_unlink" eval="1" />
     </record>
+
+    <!-- Security de vet_diagnostico -->
     <record id="model_access_diagnostico" model="ir.model.access">
         <field name="name">model.access.diagnostico</field>
         <field name="model_id" ref="veterinaria.model_ficha_diagnostico" />

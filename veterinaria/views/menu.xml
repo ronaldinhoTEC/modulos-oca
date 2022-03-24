@@ -3,15 +3,15 @@
     <!-- Main Menu -->
     <menuitem
         id="root"
-        name="Animals"
-        action="action_animal"
+        name="Veterinaria"
+        action="action_view_veterinaria"
         sequence="10"
-        web_icon="animal,static/description/icon.png"
+        web_icon="veterinaria,static/description/icon.png"
     />
     <menuitem
-        id="animal"
-        name="Animals"
-        action="action_animal"
+        id="veterinaria"
+        name="Veterinaria"
+        action="action_view_veterinaria"
         sequence="10"
         parent="root"
     />
@@ -20,19 +20,19 @@
         name="Configuration"
         sequence="100"
         parent="root"
-        groups="group_animal_manager"
+        groups="group_veterinaria_manager"
     />
 
-    <!-- Configuration -->
+    <!-- Diagnostico -->
     <menuitem id="settings" name="Settings" sequence="10" parent="config" />
     <menuitem
-        id="species"
-        name="Species"
-        action="action_animal_species"
+        id="diagnostico"
+        name="Diagnostico"
+        action="action_ficha_diagnostico"
         sequence="20"
         parent="config"
     />
-    <menuitem
+    <!-- <menuitem
         id="breed"
         name="Breeds"
         action="action_animal_breed"
@@ -45,6 +45,6 @@
         action="action_animal_color"
         sequence="40"
         parent="config"
-    />
+    /> -->
 
 </odoo>
