@@ -6,7 +6,7 @@
       <field name="name">view.tree.veterinaria</field>
       <field name="model">veterinaria</field>
       <field name="arch" type="xml">
-        <tree>
+        <tree string="Animals">
           <field name="ref"/>
           <field name="name"/>
         </tree>

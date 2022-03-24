@@ -26,7 +26,8 @@
     'data': [
         # 'security/ir.model.access.csv',
         'views/views.xml',
-        'views/templates.xml',
+        'views/vet_diagnostico.xml',
+        'views/menu.xml',
         'security/security.xml'
     ],
     # only loaded in demonstration mode

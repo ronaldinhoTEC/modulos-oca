@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!-- Vista tree de Veterinaria diagnostico-->
+
+    <record model="ir.ui.view" id="view_tree_diagnostico">
+      <field name="name">view.tree.diagnostico</field>
+      <field name="model">veterinaria.diagnostico</field>
+      <field name="arch" type="xml">
+        <tree string="Veterinaria diagnostico">
+          <field name="name"/>
+          <field name="descripcion"/>
+          <field name="fecha"/>
+        </tree>
+      </field>
+    </record>
+
+    <!-- Vista form de veterinaria_diagnostico  -->
+    <record model="ir.ui.view" id="view_form_diagnostico">
+      <field name="name">view.form.diagnostico</field>
+      <field name="model">veterinaria.diagnostico</field>
+      <field name="arch" type="xml">
+        <form string="Veterinaria diagnostico">
+          <sheet>
+            <group>
+              <field name="name" string="Nombre"/>
+              <field name="descripcion" string="Descripcion"/>
+              <field name="fecha" string="Fecha"/>
+            </group>
+          </sheet>
+        </form>
+      </field>
+    </record>
+
+    <record id="action_veterinaria_diagnostico" model="ir.actions.act_window">
+        <field name="name">Diagnostico</field>
+        <field name="res_model">veterinaria.diagnostico</field>
+        <field name="view_mode">tree,form</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Crea un diagnostico con el boton <b>Crear</b>
+            </p>
+        </field>
+    </record>
+
+</odoo>
