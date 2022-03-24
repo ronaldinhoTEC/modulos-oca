@@ -11,3 +11,4 @@ class Veterinaria(models.Model):
     
     name = fields.Char()
     ref = fields.Char(string="Reference")
+    veterinario_id = fields.Many2one("ficha.diagnostico", string="Veterinario")

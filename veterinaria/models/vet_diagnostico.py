@@ -6,5 +6,5 @@ class Diagnostico(models.Model):
     name = fields.Char(string="Name", translate=True)
     descripcion = fields.Text(string="Descripcion", translate=True)
     fecha = fields.Date(string="Date")
-    veterinario_id = fields.Many2one("veterinaria", string="Veterinario")
+    
     
