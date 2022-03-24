@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <odoo>
 
     <!-- Main Menu -->
@@ -24,7 +25,7 @@
     /> -->
 
     <!-- Diagnostico -->
-    <menuitem id="settings" name="Settings" sequence="10" parent="config" />
+    <!-- <menuitem id="settings" name="Settings" sequence="10" parent="config" /> -->
     <menuitem
         id="diagnostico"
         name="Diagnostico"
