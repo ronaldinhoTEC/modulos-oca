@@ -29,7 +29,7 @@
         'views/vet_diagnostico.xml',
         # 'views/menu.xml',
         'security/security.xml',
-        'security/security2.xml',
+        # 'security/security2.xml',
     ],
     # only loaded in demonstration mode
     'demo': [
