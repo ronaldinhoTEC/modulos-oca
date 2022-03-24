@@ -6,7 +6,7 @@ class Diagnostico(models.Model):
     _order = "name"
 
     name = fields.Char(string="Name", translate=True)
-    descripcion = fields.Text(string="Description", translate=True)
+    descripcion = fields.Text(string="Descripcion", translate=True)
     fecha = fields.Date(string="Date")
    
     
