@@ -11,6 +11,7 @@
           <field name="name"/>
           <field name="descripcion"/>
           <field name="fecha"/>
+          <field name="veterinario_id"/>
         </tree>
       </field>
     </record>
@@ -26,6 +27,7 @@
               <field name="name" string="Nombre"/>
               <field name="descripcion" string="Descripcion"/>
               <field name="fecha" string="Fecha"/>
+              <field name="veterinario_id" string="veterinario"/>
             </group>
           </sheet>
         </form>
