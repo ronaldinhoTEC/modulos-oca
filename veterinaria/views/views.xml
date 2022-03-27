@@ -76,7 +76,7 @@
     <!-- 22222 -->
     <menuitem id="veterinaria_menu_root" action="veterinaria.action_view_veterinaria">
       <menuitem id="veterinaria_diagnostico" name="Ficha de diagnostico">
-        <menuitem id="veterinaria.menu_root" action="veterinaria.action_ficha_diagnostico"/>
+        <menuitem id="diagnostico_menu_root" action="veterinaria.action_ficha_diagnostico"/>
       </menuitem>
     </menuitem>
 </odoo>
