@@ -34,7 +34,7 @@
     </record>
 
     <record id="action_ficha_diagnostico" model="ir.actions.act_window">
-        <field name="name">Diagnostico</field>
+        <field name="name">Ficha de Diagnostico</field>
         <field name="res_model">ficha.diagnostico</field>
         <field name="view_mode">tree,form</field>
         <field name="help" type="html">
