@@ -9,6 +9,6 @@ class Veterinaria(models.Model):
     # _inherit = ["mail.thread", "mail.activity.mixin"]
     # _order = "name"
     
-    name = fields.Char()
-    ref = fields.Char(string="Reference")
-    veterinario_id = fields.Many2one("ficha.diagnostico", string="Veterinario")
+    nombre = fields.Char()
+    raza = fields.Char(string="Raza")
+    diagnostico_id = fields.Many2one("ficha.diagnostico", string="Ficha de Diagnostico")

@@ -7,9 +7,9 @@
       <field name="model">veterinaria</field>
       <field name="arch" type="xml">
         <tree string="Animals">
-          <field name="ref"/>
-          <field name="name"/>
-          <field name="veterinario_id"/>
+          <field name="nombre"/>
+          <field name="raza"/>
+          <field name="diagnostico_id"/>
         </tree>
       </field>
     </record>
@@ -20,19 +20,19 @@
       <field name="model">veterinaria</field>
       <field name="arch" type="xml">
         <kanban>
-          <field name="id"/>
-          <field name="ref"/>
-          <field name="name"/>
+          <field name="diagnostico_id"/>
+          <field name="raza"/>
+          <field name="nombre"/>
           <templates>
             <t t-name="kanban-box">
               <div t-attf-class="oe_kanban_global_click">
                 <div class="oe_kanban_details">
                   <ul>
                     <li>
-                      Nombre: <field name="name"/>
+                      Nombre: <field name="nombre"/>
                     </li>
                     <li>
-                      Referencia: <field name="ref"/>
+                      Referencia: <field name="Raza"/>
                     </li>
                   </ul>
                 </div>
@@ -51,9 +51,9 @@
         <form string="Veterinaria">
           <sheet>
             <group>
-              <field name="name" string="Nombre"/>
-              <field name="ref" string="Referencia"/>
-              <field name="veterinario_id" string="veterinario id"/>
+              <field name="nombre" string="Nombre"/>
+              <field name="raza" string="Raza"/>
+              <field name="diagnostico_id" string="Diagnostico o"/>
             </group>
           </sheet>
         </form>
