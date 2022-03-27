@@ -32,7 +32,7 @@
                       Nombre: <field name="nombre"/>
                     </li>
                     <li>
-                      Referencia: <field name="Raza"/>
+                      Referencia: <field name="raza"/>
                     </li>
                   </ul>
                 </div>
