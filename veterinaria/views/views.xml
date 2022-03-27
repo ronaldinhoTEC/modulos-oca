@@ -55,7 +55,9 @@
         <form string="Veterinaria">
           <sheet>
             <group>
-              <field name="imagen" widget='imagen' class="oe_avatar"/>
+              <field name="imagen" widget='image' class="oe_avatar"/>
+            </group>
+            <group>
               <!-- <h1 style="color: ;"> -->
               <field name="nombre" string="Nombre"/>
               <!-- </h1> -->
