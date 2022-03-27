@@ -21,7 +21,7 @@
       <field name="arch" type="xml">
         <kanban>
           <field name="diagnostico_id"/>
-          <field name="image" />
+          <field name="imagen" />
           <field name="raza"/>
           <field name="nombre"/>
           <templates>
