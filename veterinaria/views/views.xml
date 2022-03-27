@@ -54,9 +54,9 @@
           <sheet>
             <group>
               <field name="imagen" widget='imagen' class="oe_avatar"/>
-              <h1 style="color: gold; display: inline">
-                <field name="nombre" string="Nombre"/>
-              </h1>
+              <!-- <h1 style="color: #11151f;"> -->
+              <field name="nombre" string="Nombre"/>
+              <!-- </h1> -->
               <field name="raza" string="Raza"/>
               <field name="diagnostico_id" string="Diagnostico o"/>
             </group>
