@@ -73,6 +73,10 @@
         </p> 
       </field>
     </record>
-    
-    <menuitem name="Veterinaria" parent="" id="veterinaria.menu_root" action="veterinaria.action_view_veterinaria"/>
+    <!-- 22222 -->
+    <menuitem id="veterinaria_menu_root" name="Veteerinaaria" action="veterinaria.action_view_veterinaria">
+      <menuitem id="primer_nivel_diagnostico" name="Diagnostico">
+        <menuitem id="veterinaria.menu_root" action="veterinaria.action_ficha_diagnostico"/>
+      </menuitem>
+    </menuitem>
 </odoo>
