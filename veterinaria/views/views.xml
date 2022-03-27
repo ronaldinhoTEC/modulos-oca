@@ -74,9 +74,9 @@
       </field>
     </record>
     <!-- 22222 -->
-    <menuitem id="veterinaria_menu_root" name="Veteerinaaria" action="veterinaria.action_view_veterinaria">
-      <menuitem id="primer_nivel_diagnostico" name="Diagnostico">
-        <menuitem id="veterinaria.menu_root" action="veterinaria.action_ficha_diagnostico"/>
+    <menuitem id="veterinaria_menu_root" action="veterinaria.action_view_veterinaria">
+      <menuitem id="veterinaria_diagnostico" name="Ficha de diagnostico">
+        <menuitem id="diagnostico.menu" action="veterinaria.action_ficha_diagnostico"/>
       </menuitem>
     </menuitem>
 </odoo>
