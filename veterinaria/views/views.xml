@@ -29,8 +29,10 @@
               <div t-attf-class="oe_kanban_global_click">
                 <div class="oe_kanban_details">
                   <ul>
-                    <li>
+                    <li style="">
                       Imagen: <field name="imagen"/>
+                    </li>
+                    <li>
                       Nombre: <field name="nombre"/>
                     </li>
                     <li>
@@ -54,7 +56,7 @@
           <sheet>
             <group>
               <field name="imagen" widget='imagen' class="oe_avatar"/>
-              <!-- <h1 style="color: #11151f;"> -->
+              <!-- <h1 style="color: ;"> -->
               <field name="nombre" string="Nombre"/>
               <!-- </h1> -->
               <field name="raza" string="Raza"/>
