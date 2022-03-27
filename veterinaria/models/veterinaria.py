@@ -13,7 +13,7 @@ class Veterinaria(models.Model):
     raza = fields.Char(string="Raza")
     diagnostico_id = fields.Many2one("ficha.diagnostico", string="Ficha de Diagnostico")
     imagen = fields.Binary(
-        attachment=True, help="This field holds the photo of the animal."
+        attachment=True, help="Agrega la foto de tu animal."
     )
     
     

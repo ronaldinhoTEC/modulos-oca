@@ -28,9 +28,9 @@
             <t t-name="kanban-box">
               <div t-attf-class="oe_kanban_global_click">
                 <div class="oe_kanban_details">
-                  <field name="imagen"/>
                   <ul>
                     <li>
+                      Imagen: <field name="imagen"/>
                       Nombre: <field name="nombre"/>
                     </li>
                     <li>
@@ -53,8 +53,10 @@
         <form string="Veterinaria">
           <sheet>
             <group>
-              <field name="imagen" widget='imagen'/>
-              <field name="nombre" string="Nombre"/>
+              <field name="imagen" widget='imagen' class="oe_avatar"/>
+              <h1 style="color: gold">
+                <field name="nombre" string="Nombre"/>
+              </h1>
               <field name="raza" string="Raza"/>
               <field name="diagnostico_id" string="Diagnostico o"/>
             </group>
