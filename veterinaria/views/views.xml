@@ -52,6 +52,7 @@
         <form string="Veterinaria">
           <sheet>
             <group>
+              <field name="imagen" widget='imagen'/>
               <field name="nombre" string="Nombre"/>
               <field name="raza" string="Raza"/>
               <field name="diagnostico_id" string="Diagnostico o"/>
