@@ -5,9 +5,9 @@ from odoo import models, fields, api
 
 class Veterinaria(models.Model):
     _name = 'veterinaria'
-    _description = "Veterinaria"
+    
     _inherit = ["mail.thread", "mail.activity.mixin"]
-    _order = "name"
+    
     
     nombre = fields.Char()
     raza = fields.Char(string="Raza")
