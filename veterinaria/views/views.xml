@@ -10,6 +10,7 @@
           <field name="nombre"/>
           <field name="raza"/>
           <field name="diagnostico_id"/>
+          <field name="age_range"/>
         </tree>
       </field>
     </record>
@@ -64,6 +65,7 @@
               <!-- </h1> -->
               <field name="raza" string="Raza"/>
               <field name="diagnostico_id" string="Diagnostico o"/>
+              <field name="age_range" string="Diagnostico o"/>
             </group>
           </sheet>
         </form>
@@ -92,7 +94,7 @@
         <menuitem id="diagnostico_menu_root" action="veterinaria.action_ficha_diagnostico"/>
       </menuitem>
       <menuitem id="veterinaria_test" name="test">
-        <menuitem id="test_menu_root" action="res.partner.age.range.action_partner_age_range"/>
+        <menuitem id="test_menu_root" action="partner_contact_age_range.action_partner_age_range"/>
       </menuitem>
     </menuitem>
 </odoo>
