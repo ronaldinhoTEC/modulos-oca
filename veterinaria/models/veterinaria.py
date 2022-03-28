@@ -13,6 +13,12 @@ class Veterinaria(models.Model):
     raza = fields.Char(string="Raza")
     diagnostico_id = fields.Many2one("ficha.diagnostico", string="Ficha de Diagnostico")
     imagen = fields.Image("Imagen de la mascota", required=True) 
+    age_range_id = fields.Many2one(
+        "res.partner.age.range",
+        "Age Range",
+        compute="_compute_age_range_id",
+        store=True,
+    )
     
     
     

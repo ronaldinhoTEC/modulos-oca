@@ -83,10 +83,16 @@
         </p> 
       </field>
     </record>
-    <!-- 22222 -->
+    <!--partner_contact_age_range -->
+    
+
+    <!-- partner_contact_age_range  -->
     <menuitem id="veterinaria_menu_root" action="veterinaria.action_view_veterinaria">
       <menuitem id="veterinaria_diagnostico" name="Diagnostico">
         <menuitem id="diagnostico_menu_root" action="veterinaria.action_ficha_diagnostico"/>
+      </menuitem>
+      <menuitem id="veterinaria_test" name="test">
+        <menuitem id="test_menu_root" action="veterinaria.action_partner_age_range"/>
       </menuitem>
     </menuitem>
 </odoo>
