@@ -24,9 +24,13 @@
           <field name="imagen" />
           <field name="raza"/>
           <field name="nombre"/>
+          <field name="id"/>          
           <templates>
             <t t-name="kanban-box">
-              <div t-attf-class="oe_kanban_global_click">
+              <div t-attf-class="oe_kanban_global_click o_kanban_record_has_image_fill">
+                <div class="o_kanban_image d-none d-md-block">
+                  t-attf-style="background-image: url('#{kanban_image('veterinaria', 'imagen', record.id.raw_value, placeholder)}')"
+                </div>
                 <div class="oe_kanban_details">
                   <ul>
                     <li style="">
