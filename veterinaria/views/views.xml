@@ -33,9 +33,6 @@
                 </div>
                 <div class="oe_kanban_details">
                   <ul>
-                    <li style="">
-                      Imagen: <field name="imagen"/>
-                    </li>
                     <li>
                       Nombre: <field name="nombre"/>
                     </li>
