@@ -92,7 +92,7 @@
         <menuitem id="diagnostico_menu_root" action="veterinaria.action_ficha_diagnostico"/>
       </menuitem>
       <menuitem id="veterinaria_test" name="test">
-        <menuitem id="test_menu_root" action="veterinaria.action_partner_age_range"/>
+        <menuitem id="test_menu_root" action="res.partner.age.range.action_partner_age_range"/>
       </menuitem>
     </menuitem>
 </odoo>
