@@ -12,7 +12,7 @@ class Veterinaria(models.Model):
     nombre = fields.Char()
     raza = fields.Char(string="Raza")
     diagnostico_id = fields.Many2one("ficha.diagnostico", string="Ficha de Diagnostico")
-    imagen = fields.Image("Imagen de la mascota") 
+    imagen = fields.Image("Imagen de la mascota", required=True) 
     
     
     

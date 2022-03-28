@@ -50,7 +50,7 @@
 
     <!-- Vista form de Veterinaria-->
     <record id="view_veterinaria_form" model="ir.ui.view">
-      <field name="name">view.form.veterinaria</field>
+      <field name="name">view.form.veterinariww</field>
       <field name="model">veterinaria</field>
       <field name="arch" type="xml">
         <form string="Veterinaria">
